@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{box-sizing: border-box;}
+body{margin: 0;}
+.header{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-height: 94px;
+    background: black;
+    padding: 25px;
+    gap: 11px;
+    
+}
+
+   
+.logo{
+    min-width: 66px;
+    min-height: 44px;
+    background: #849fff;
+}
+    
+.input{
+    width: 521px;
+    min-height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+   
+  
+}
+.button{
+    width: 74px;
+    height: 44px;
+    background: #393939;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+   
+}   
+.inbox-sent{
+    display: flex;
+    width: 100%;
+    height: 61px;
+}
+.inbox{
+    width: 50vw;
+    height: 100%;
+    background: #393939;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    justify-content: center;
+    border: none;
+}
+.sent{
+    width: 50vw;
+    height: 100%;
+    background: #888888;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    justify-content: center;
+    border: none;
+}
+.cuerpo{
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    padding-bottom: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #FFF59B;
+   
+    
+}
+  
+.title{
+min-width: 177px;
+min-height: 70px;
+margin: 0 auto 0 0;
+left: 22px;
+top: 180px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 70px;
+
+color: #000000;
+}
+.email1 {   
+    max-width: 334px;
+    min-height: 73px;
+    background: #FFFDE8;
+    border: 1px solid #000000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    color: #000000;}
