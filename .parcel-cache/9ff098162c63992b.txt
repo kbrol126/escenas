@@ -81,7 +81,7 @@
 51C:\Users\usuario\dwf-m5\router\node_modules\timsort133112592302331807 1
 68C:\Users\usuario\dwf-m5\router\node_modules\@mischnic\json-sourcemap133112608081078420 1
 56C:\Users\usuario\dwf-m5\router\node_modules\terser\tools133112592344287616 1
-42C:\Users\usuario\dwf-m5\router\src\main.ts133116958860216143 0
+42C:\Users\usuario\dwf-m5\router\src\main.ts133116971087873044 0
 60C:\Users\usuario\dwf-m5\router\node_modules\lodash\fp\ary.js133112608050290000 0
 70C:\Users\usuario\dwf-m5\router\node_modules\node-addon-api\common.gypi133112592176950000 0
 71C:\Users\usuario\dwf-m5\router\node_modules\@parcel\watcher\src\windows133112592350939827 1
@@ -4322,7 +4322,7 @@
 83C:\Users\usuario\dwf-m5\router\node_modules\caniuse-lite\data\features\web-share.js133112592191080000 0
 83C:\Users\usuario\dwf-m5\router\node_modules\caniuse-lite\data\features\webcodecs.js133112592191080000 0
 74C:\Users\usuario\dwf-m5\router\node_modules\@parcel\workers\lib\backend.js133112592141020000 0
-57C:\Users\usuario\dwf-m5\router\componentes\inbox\inbox.ts133116958144479742 0
+57C:\Users\usuario\dwf-m5\router\componentes\inbox\inbox.ts133116973868861857 0
 80C:\Users\usuario\dwf-m5\router\node_modules\caniuse-lite\data\features\webgl2.js133112592191080000 0
 79C:\Users\usuario\dwf-m5\router\node_modules\caniuse-lite\data\features\webvr.js133112592191080000 0
 80C:\Users\usuario\dwf-m5\router\node_modules\caniuse-lite\data\features\webvtt.js133112592191080000 0
@@ -5365,4 +5365,4 @@
 58C:\Users\usuario\dwf-m5\router\dist\Polygon 1.d5143ff3.png133115288346046459 0
 54C:\Users\usuario\dwf-m5\router\dist\router.59712999.js133116557464977036 0
 47C:\Users\usuario\dwf-m5\router\componentes\sent133116956910283344 1
-55C:\Users\usuario\dwf-m5\router\componentes\sent\sent.ts133116956975458641 0
+55C:\Users\usuario\dwf-m5\router\componentes\sent\sent.ts133116973853589134 0
