@@ -4,13 +4,13 @@ export function importInbox() {
   <h2 class="title">Inbox</h2>
   <input
     type="email"
-    class="email1 icono"
+    class="email1"
     id="primer_email"
     placeholder=" un email"
   />
   <input
     type="email"
-    class="email1 icono"
+    class="email1"
     id="segundo_email"
     placeholder=" un email"
   />

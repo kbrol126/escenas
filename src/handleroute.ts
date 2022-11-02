@@ -2,21 +2,24 @@ import { importSent } from "../componentes/sent/sent";
 import { importInbox } from "../componentes/inbox/inbox";
 
 export function handleRoute(routes): any {
-  const contenedor = document.querySelector(".contenedor");
-
   const route = [
     {
       path: /\/inbox/,
-      handler: () => contenedor?.appendChild(importInbox()),
+      handler: () => importInbox(),
     },
     {
       path: /\/sent/,
-      handler: () => contenedor?.appendChild(importSent()),
+      handler: () => importSent(),
     },
   ];
   for (const r of route) {
     if (r.path.test(routes)) {
-      r.handler();
+      const el = r.handler();
+      const contenedor = document.querySelector(".contenedor");
+      if (contenedor?.firstChild) {
+        contenedor.firstChild.remove();
+      }
+      contenedor?.appendChild(el);
     }
   }
 }
