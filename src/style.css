@@ -175,6 +175,9 @@ line-height: 70px;
 
 color: #000000;
 }
+a{
+    text-decoration: none;
+}
 .email1 {   
     max-width: 334px;
     min-height: 73px;
@@ -189,6 +192,7 @@ color: #000000;
     align-items: center;
     margin-top: 13px;
     color: #000000;
+    
     }
 
   

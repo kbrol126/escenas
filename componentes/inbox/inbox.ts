@@ -2,18 +2,13 @@ export function importInbox() {
   let component = document.createElement("div");
   component.innerHTML = `<div class="cuerpo">
   <h2 class="title">Inbox</h2>
-  <input
-    type="email"
-    class="email1"
-    id="primer_email"
-    placeholder=" un email"
-  />
-  <input
-    type="email"
-    class="email1"
-    id="segundo_email"
-    placeholder=" un email"
-  />
+
+  <ul>
+  <li class="email1" > <a href="/inbox/unemail">un email</a></li>
+  <li class="email1"> <a href="/inbox/otroemail">otro email</a></li>
+
+
+</ul>
 </div>`;
   return component;
 }

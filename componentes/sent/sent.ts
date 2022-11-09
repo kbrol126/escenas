@@ -2,18 +2,12 @@ export function importSent() {
   let component = document.createElement("div");
   component.innerHTML = `<div class="cuerpo">
   <h2 class="title">Sent</h2>
-  <input
-    type="email"
-    class="email1 icono"
-    id="primer_email"
-    placeholder=" un email"
-  />
-  <input
-    type="email"
-    class="email1 icono"
-    id="segundo_email"
-    placeholder=" un email"
-  />
+  <ul>
+  <li class="email1" > <a href="/sent/unemail">un email</a></li>
+  <li class="email1"> <a href="/sent/otroemail">otro email</a></li>
+
+
+</ul>
 </div>`;
   return component;
 }
