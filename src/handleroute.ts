@@ -2,9 +2,12 @@ import { importSent } from "../componentes/sent/sent";
 import { importInbox } from "../componentes/inbox/inbox";
 import { importEmail } from "../componentes/inbox/email";
 import { importEmailSent } from "../componentes/sent/email";
-
-export function handleRoute(routes): any {
-  const route = [
+export function goTo(path) {
+  history.pushState({}, "", path);
+  handleRoute(path);
+}
+export function handleRoute(contenedor): any {
+  const routes = [
     {
       path: /\//,
       handler: () => importInbox(),
@@ -26,8 +29,8 @@ export function handleRoute(routes): any {
       handler: () => importEmail(),
     },
   ];
-  for (const r of route) {
-    if (r.path.test(routes)) {
+  for (const r of routes) {
+    if (r.path.test(contenedor)) {
       const el = r.handler();
       const contenedor = document.querySelector(".contenedor");
       if (contenedor?.firstChild) {
